@@ -67,6 +67,10 @@
         <item name="customMapsCardTitleColor">@color/white</item>
         <item name="customMapsCardSubTitleColor">@color/grey100</item>
 
+        <item name="customScannerCardBackgroundColor">@color/utilities_scanner_background</item>
+        <item name="customScannerCardTitleColor">@color/white</item>
+        <item name="customScannerCardSubTitleColor">@color/grey100</item>
+
         <item name="customMiscCardBackgroundColor">@color/utilities_misc_background</item>
         <item name="customMiscCardTitleColor">@color/white</item>
         <item name="customMiscCardSubTitleColor">@color/grey100</item>

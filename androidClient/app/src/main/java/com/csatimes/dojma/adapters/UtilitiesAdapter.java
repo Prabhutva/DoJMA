@@ -14,6 +14,7 @@ import com.csatimes.dojma.R;
 import com.csatimes.dojma.viewholders.UtilitiesCampusMapViewHolder;
 import com.csatimes.dojma.viewholders.UtilitiesContactsViewHolder;
 import com.csatimes.dojma.viewholders.UtilitiesLinksViewHolder;
+import com.csatimes.dojma.viewholders.UtilitiesScannerViewHolder;
 import com.csatimes.dojma.viewholders.UtilitiesTitleSubTitleViewHolder;
 
 import static com.csatimes.dojma.utilities.DHC.ARCHIVES;
@@ -23,6 +24,7 @@ import static com.csatimes.dojma.utilities.DHC.LINKS;
 import static com.csatimes.dojma.utilities.DHC.UTILITIES_ITEM_TYPE_MAP;
 import static com.csatimes.dojma.utilities.DHC.MESS;
 import static com.csatimes.dojma.utilities.DHC.MISC;
+import static com.csatimes.dojma.utilities.DHC.SCANNER;
 
 /**
  * Created by Vikramaditya Kukreja on 21-07-2016.
@@ -108,6 +110,11 @@ public class UtilitiesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                 viewHolder = new UtilitiesLinksViewHolder(view, parent.getContext());
                 break;
             }
+            case SCANNER: {
+                view = inflater.inflate(R.layout.viewholder_utilities_scanner, parent, false);
+                viewHolder = new UtilitiesScannerViewHolder(view, parent.getContext());
+                break;
+            }
             case UTILITIES_ITEM_TYPE_MAP: {
                 view = inflater.inflate(R.layout.viewholder_utilities_map, parent, false);
                 viewHolder = new UtilitiesCampusMapViewHolder(view, parent.getContext());
@@ -159,7 +166,7 @@ public class UtilitiesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
 
     @Override
     public int getItemCount() {
-        return 7;
+        return 8;
     }
 
     @Override
@@ -178,6 +185,8 @@ public class UtilitiesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
             case 5:
                 return UTILITIES_ITEM_TYPE_MAP;
             case 6:
+                return SCANNER;
+            case 7:
                 return ARCHIVES;
             default:
                 return -1;

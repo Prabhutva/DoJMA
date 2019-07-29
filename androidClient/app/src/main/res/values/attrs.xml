@@ -59,6 +59,10 @@
     <attr name="customMapsCardTitleColor" format="color" />
     <attr name="customMapsCardSubTitleColor" format="color" />
 
+    <attr name="customScannerCardBackgroundColor" format="color" />
+    <attr name="customScannerCardTitleColor" format="color" />
+    <attr name="customScannerCardSubTitleColor" format="color" />
+
     <attr name="customMiscCardBackgroundColor" format="color" />
     <attr name="customMiscCardTitleColor" format="color" />
     <attr name="customMiscCardSubTitleColor" format="color" />

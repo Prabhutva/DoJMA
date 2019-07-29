@@ -57,6 +57,7 @@
     <color name="utilities_links_background">@color/green500</color>
     <color name="utilities_misc_background">@color/grey800</color>
     <color name="utilities_map_background">@color/teal500</color>
+    <color name="utilities_scanner_background">@color/teal500</color>
 
     <color name="utilities_archive_background">@color/cyan500</color>
 

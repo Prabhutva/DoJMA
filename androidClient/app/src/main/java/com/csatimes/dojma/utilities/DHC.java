@@ -61,7 +61,7 @@ public class DHC {
      */
     public static final String PACKAGE_NAME = BuildConfig.APPLICATION_ID;
 
-    //MainActivity UI codes
+    //ScannerActivity UI codes
     public static final String USER_PREFERENCES_NAVBAR_TITLE = "USER_PREFS_NAVBAR_TITLE";
 
     public static final String USER_PREFERENCES_MISC_CARD_MESSAGE = "USER_PREFS_MISC";
@@ -184,7 +184,8 @@ public class DHC {
     public static final int LINKS = 3;
     public static final int MISC = 4;
     public static final int UTILITIES_ITEM_TYPE_MAP = 5;
-    public static final int ARCHIVES = 6;
+    public static final int SCANNER = 6;
+    public static final int ARCHIVES = 7;
 
     public static final int MAIN_ACTIVITY_EVENTS_POS = 3;
 
